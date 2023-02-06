@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1,.add-one{
+    text-align: center;
+    margin-top: 32px;   
+}
+ 
+.add-one a{
+    font-size: 24px;
+    text-decoration: none;
+    border: 1px solid #000;
+    padding: 16px;
+    border-radius: 30px;
+    background-color: aqua;
+}
+
+.btn-newbook{
+    padding: 16px;
+    background-color: aqua;
+    border-radius: 30px;
+}
+
+.btn-newbook:hover{
+    cursor: pointer;
+    background-color: #ccc;
+}
+
+.btn-add{
+    padding: 12px;
+    background-color: aqua;
+    border-radius: 10px;
+    
+}
+
+.newbook.open{
+    display: flex;
+}
+
+.newbook{
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.4);
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.newbook-content{
+    border: 1px solid #000;
+    padding: 16px;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.content{
+    margin-right: 15%;
+}
+
+.icon i{
+    font-size: 24px;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+.input-title,.input-author,.input-pages{
+    width: 350px;
+    margin-bottom: 8px;
+    margin-left: -60px;
+}
+
+input{
+    width: 350px;
+    height: 28px;
+}
+
+.main-content .span{
+    width: 350px;
+}
+
+.span{
+    margin: 28 0px;
+    font-size: 24px;
+}
+
+.library{
+    display: none;
+}
+
+.library.open{
+    display: flex;
+
+}
+
+.title,
+.author,
+.pages{
+    margin: 25px 0;
+}
+
+
+.btnRead{
+    font-size: 24px;
+    padding: 4px;
+    margin-right: 4px;
+    background-color: rgb(91, 237, 188);
+    border-radius: 5px;
+
+}
+
+.btnRead.notRead{
+    background-color: rgb(249, 148, 101);
+}
+
+.btnRemove{
+    font-size: 24px;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.book{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    border: 1px solid #000;
+    margin-top: 20px;
+    width: 250px;
+    height: 280px;
+    align-items: center;
+    margin-left: 24px;
+    border-radius: 5px;
+    font-size: 20px;
+}
